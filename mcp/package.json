@@ -1,12 +1,13 @@
 {
   "name": "@flynode/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FlyNode MCP server: lets Claude (or any MCP client) deploy a local project to FlyNode, watch the build and verify it is live.",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
+    "mcp": "dist/server.js",
     "flynode-mcp": "dist/server.js",
     "flynode": "dist/cli.js"
   },
