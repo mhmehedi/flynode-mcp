@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "flynode": {
+      "command": "npx",
+      "args": ["-y", "@flynode/mcp"],
+      "env": { "FLYNODE_TOKEN": "${FLYNODE_TOKEN}" }
+    }
+  }
+}

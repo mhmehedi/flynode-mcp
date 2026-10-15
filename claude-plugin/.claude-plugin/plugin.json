@@ -1,0 +1,8 @@
+{
+  "name": "flynode",
+  "version": "0.1.0",
+  "description": "Deploy the project in your folder to FlyNode with one instruction: Claude ships it, watches the build, fixes failures and reports the live address.",
+  "author": { "name": "FlyNode" },
+  "homepage": "https://flynode.io",
+  "license": "MIT"
+}
